@@ -49,10 +49,10 @@
 //     console.log(x);
 // }
 
-function madLib(verb, adj, noun) {
+function madLib((verb, adj, noun) {
     return `We shall ${verb.toUpperCase()} the ${adj.toUpperCase()} ${noun.toUpperCase()}.`
     // return "hello"
-}
+})
 
 madLib("make", "best", "guac");
 
