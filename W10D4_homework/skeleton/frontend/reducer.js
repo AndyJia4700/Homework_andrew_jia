@@ -16,24 +16,24 @@ const reducer = (state = initialState, action) => {
     }
 };
 
-window.reducer = reducer;
+// window.reducer = reducer;
 
-let action = {
-  type: "SWITCH_LOCATION",
-  city: "remote",
-  jobs: [
-    {
-      id: 1,
-      title: "Test Job",
-      company: "Github",
-      type: "Full Time",
-      location: "remote",
-      description: "test description",
-      url: "www.github.com/appacademy"
-    }
-  ]
-};
-reducer(null, action);
+// let action = {
+//   type: "SWITCH_LOCATION",
+//   city: "remote",
+//   jobs: [
+//     {
+//       id: 1,
+//       title: "Test Job",
+//       company: "Github",
+//       type: "Full Time",
+//       location: "remote",
+//       description: "test description",
+//       url: "www.github.com/appacademy"
+//     }
+//   ]
+// };
+// reducer(null, action);
 
 export default reducer;
 
